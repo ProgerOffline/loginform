@@ -1,0 +1,65 @@
+* {
+	font-family: "Gill Sans", sans-serif;
+	background-color: #fcfcfc;
+}
+.loginForm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info{
+	text-align: center;
+}
+
+input[type=text]{
+	display: inherit;
+	width: 100%;
+	max-width: 800px;
+	min-width: 200px;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background-color: #333;
+	transition: .3s;
+
+}
+
+::placeholder {
+	color: white;
+}
+
+input[type=text]:focus{
+	background-color: #4CAF50;
+	outline: none;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 10px;
+}
+
+.reg {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.5;
+	transition: .3s;
+}
+
+.reg:hover {
+	opacity: 1;
+}
+
+.signin {
+	text-align: center;
+}
+
+p, h1{
+	padding: 0;
+	margin: 3px;
+}
